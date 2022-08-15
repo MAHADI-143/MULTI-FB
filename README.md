@@ -21,6 +21,8 @@
 `git clone
 https://github.com/MAHADI-143/MULTI-FB.git`
 
+`git pull`
+
 `cd MULTI-FB`
 
 `python MULTI-FB.py`
