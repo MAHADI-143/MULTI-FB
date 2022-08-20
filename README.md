@@ -14,7 +14,7 @@
 
 `pip install mechanize`
 
-`pip instal rich`
+`pip install rich`
 
 `rm -rf MULTI-FB`
 
