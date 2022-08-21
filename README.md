@@ -25,4 +25,4 @@ https://github.com/MAHADI-143/MULTI-FB.git`
 
 `cd MULTI-FB`
 
-`python MULTI-FB.py`
+`python3 MULTI-FB.py`
