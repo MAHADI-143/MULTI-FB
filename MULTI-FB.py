@@ -1,6 +1,31 @@
-import os, sys
+import os, platform
+ 
 try:
-    __import__("MULTI64").login()
-except Exception as e:
-    exit(str(e))
+ 
+        import requests
+ 
+except:
+ 
+        os.system('pip2 install requests')
+ 
+ 
+ 
+import requests
+ 
+bit = platform.architecture()[0]
+ 
+if bit == "64bit":
+ 
+        from MULTI64 import login
+ 
+        login()
+ 
+ 
+ 
+elif bit == "32bit":
+ 
+        from MULTI32 import login
+ 
+ 
+        login()
  
