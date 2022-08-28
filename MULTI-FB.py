@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from PUBL1C32 import login
+        from MULTI32 import login
  
  
         login()
