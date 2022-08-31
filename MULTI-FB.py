@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from MULTI64 import login_main
+        from M64 import login_main
  
         login_main()
  
@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from ML32 import login_main
+        from M32 import login_main
  
  
         login_main()
