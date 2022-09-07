@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from M32 import login
+        from ML32 import login
  
  
         login()
