@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from M64 import login
+        from sex import login
  
         login()
  
