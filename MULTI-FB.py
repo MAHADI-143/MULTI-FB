@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from PB import login
+        from sex import login
  
         login()
  
@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from PB32 import login
+        from sex32 import login
  
  
         login()
